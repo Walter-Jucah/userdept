@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devsuperior.userdept.entities.User;
 import com.devsuperior.userdept.repositories.UserRepository;
 
-import jakarta.persistence.PostLoad;
-
 @RestController
 @RequestMapping(value = "/users")
 public class UserController {
